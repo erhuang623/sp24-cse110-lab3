@@ -92,6 +92,62 @@
 
             <section id="feedback">
                 <h2>Feedback</h2>
+
+                <form>
+                    <fieldset>
+                        <legend>Your Input Appreciated!</legend>
+                        <label for="meetingScore">How did todays meeting go?</label>
+                        <input type="radio" id="feedback1" name="feedback">
+                        <label for="feedback1">Awful</label>  
+                        <input type="radio" id="feedback1" name="feedback">
+                        <label for="feedback2">Bad</label>  
+                        <input type="radio" id="feedback2" name="feedback">
+                        <label for="feedback3">Decent</label>  
+                        <input type="radio" id="feedback3" name="feedback">
+                        <label for="feedback4">Good</label>  
+                        <input type="radio" id="feedback4" name="feedback">
+                        <label for="feedback5">Excellent</label>  <br>
+
+                        <label for="name" name="fullname">Name :</label>
+                        <input type="name" id="fullname" required placeholder="Please put your name"> <br>
+
+                        <label for="today">Today's Date:</label>
+                        <input type="date" id="today" name="feedback-date"> <br>
+
+                        
+                        <label for="attended">Attended</label>
+                        <input type="checkbox" id="attended" name="attended"> <br>
+
+                        <label for="position">Position:</label>
+                        <datalist id="position">
+                                <option value="Team Lead"></option>
+                                <option value="Dev"></option>
+                                <option value="Designer"></option>
+                                <option value="Other"></option>
+                        </datalist>
+                        <input list="position" id="position"> <br>
+
+                        <label for="meeting">How did you attend if you did?</label>
+                        <select id="Method">
+                            <optgroup label="Manner">
+                                <option value="In person">In person</option>
+                                <option value="Remote">Remote</option>
+                                
+                            </optgroup>
+                        </select> <br>
+
+                        
+
+                        <label for="comments">Additional Comments</label>
+                        <textarea id="comments" required placeholder="Comments Here"></textarea> <br>
+
+                       <button type="submit">Submit</button> 
+                    </fieldset>
+
+                
+
+                </form>
+
             </section>
 
 
