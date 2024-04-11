@@ -8,7 +8,6 @@
         </title>
 
         <link rel="icon" type="image/png" sizes="32x32" href="images/images/favicon-32x32.png">
-
     </head>
 
     <body>
@@ -70,7 +69,7 @@
             <section id="media">
                 <h2>Data from analytics team</h2>
 
-               <img src="/images/images/favicon-32x32.png" alt="Picture of how our market shares are">
+               <img src="/images/stonks.png" alt="Picture of how our market shares are">
 
                 <details> 
                     <summary>Report</summary>
@@ -79,8 +78,7 @@
 
                 <h2>Recording of last Meeting</h2>
                 <video controls width="500">
-                    <source src="media/Last Meeting Recorded.mp4" type="video/mp4"/>
-
+                    <source src="media/LastMeetingRecorded.mp4" type="video/mp4">
                 </video>
 
                 <h2>Message from our sponsors</h2>
@@ -97,20 +95,20 @@
                 <form>
                     <fieldset>
                         <legend>Your Input Appreciated!</legend>
-                        <label for="meetingScore">How did todays meeting go?</label>
+                        <div>How did todays meeting go?</div>
                         <input type="radio" id="feedback1" name="feedback">
                         <label for="feedback1">Awful</label>  
-                        <input type="radio" id="feedback1" name="feedback">
-                        <label for="feedback2">Bad</label>  
                         <input type="radio" id="feedback2" name="feedback">
-                        <label for="feedback3">Decent</label>  
+                        <label for="feedback2">Bad</label>  
                         <input type="radio" id="feedback3" name="feedback">
-                        <label for="feedback4">Good</label>  
+                        <label for="feedback3">Decent</label>  
                         <input type="radio" id="feedback4" name="feedback">
+                        <label for="feedback4">Good</label>  
+                        <input type="radio" id="feedback5" name="feedback">
                         <label for="feedback5">Excellent</label>  <br>
 
-                        <label for="name" name="fullname">Name :</label>
-                        <input type="name" id="fullname" required placeholder="Please put your name"> <br>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" required placeholder="Please put your name"> <br>
 
                         <label for="today">Today's Date:</label>
                         <input type="date" id="today" name="feedback-date"> <br>
@@ -119,7 +117,7 @@
                         <label for="attended">Attended</label>
                         <input type="checkbox" id="attended" name="attended"> <br>
 
-                        <label for="position">Position:</label>
+                        <label for="teamPosition">Position:</label>
                         <datalist id="position">
                                 <option value="Team Lead"></option>
                                 <option value="Dev"></option>
@@ -150,7 +148,8 @@
 
         </main>
 
-    </body> <hr>
+    </body>
+    <hr>
     
     <footer>
         Made by E.H. of the Corporation
