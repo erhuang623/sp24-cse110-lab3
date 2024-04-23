@@ -11,14 +11,14 @@ html {
     background-color: var(--main-bg-color); /*Custom background color*/ 
     color: var(--main-text-color, wheat);          /*Custom white text*/ 
     font-family: "Oswald", sans-serif;      /*Custom Font*/ 
-    font-size: 18px;
+    font-size: 12px;
 }
 
 header {
     background-color:var(--main-box-color);
     color: var(--main-text-color);
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     border-radius: 1rem;
 }
 
@@ -44,6 +44,11 @@ header {
 	align-content: stretch;
 }
 
+#absent {
+    font-size: .8em;
+    color: gray;
+}
+
 #report {
     color: color-mix(in lch, rgb(114, 44, 44), rgb(18, 210, 235));
 }
@@ -52,7 +57,7 @@ form fieldset button {
     color: white;
     background-color: rgb(66, 62, 62);
     padding: 2px 12px; /*size*/;
-    font-size: .5cm;
+    font-size: .3cm;
     text-align: center;
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -62,7 +67,7 @@ form fieldset button:active {
     color: white;
     background-color: rgb(66, 62, 62);
     padding: 2px 12px; /*size*/;
-    font-size: .45cm;
+    font-size: .27cm;
     text-align: center;
     text-decoration: none;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -70,4 +75,5 @@ form fieldset button:active {
 
 footer {
     color: color(display-p3 3 1 3);
+    width: 4vw;
 }
