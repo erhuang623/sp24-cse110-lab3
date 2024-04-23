@@ -1,15 +1,45 @@
 /*Might want to set defaults or blow them out. e.g margin:0,  padding: 0*/
 :root {
-    --maple-red-color: #E53C3C; 
-    --wood-brown-color: #662e06;
+    --main-box-color: #bda0eb;
+    --main-text-color: hsl(0, 0%, 100%); 
+    --main-title-color: rgb(231, 203, 203);
+    --main-bg-color: rgb(48, 45, 45); 
 }
 
+html {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+}
 
 header {
-    background-color:black;
-    color: var(--maple-red-color);
+    background-color:var(--main-box-color);
+    color: var(--main-text-color);
     text-align: center;
-    font-size: 20px;
-
+    font-size: 1.5em;
 }
 
+#navigationBar > a {
+    color: #f3f05c;
+    border: 1px solid #f3f05c;
+    padding: 1px 10px; /*size*/;
+    font-size: 1em;
+    text-align: center;
+    
+}
+
+#navigationBar {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: stretch;
+}
+
+#report {
+    color: color-mix(in lch, rgb(114, 44, 44), rgb(18, 210, 235));
+}
+
+footer {
+    color: color(display-p3 3 1 3);
+}
