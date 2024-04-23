@@ -4,11 +4,14 @@
     --main-text-color: hsl(0, 0%, 100%); 
     --main-title-color: rgb(231, 203, 203);
     --main-bg-color: rgb(48, 45, 45); 
+    
 }
 
 html {
-    background-color: var(--main-bg-color);
-    color: var(--main-text-color);
+    background-color: var(--main-bg-color); /*Custom background color*/ 
+    color: var(--main-text-color);          /*Custom white text*/ 
+    font-family: "Oswald", sans-serif;      /*Custom Font*/ 
+    font-size: 20;
 }
 
 header {
@@ -16,16 +19,19 @@ header {
     color: var(--main-text-color);
     text-align: center;
     font-size: 1.5em;
+    border-radius: 1rem;
 }
 
 #navigationBar > a {
     color: #f3f05c;
-    border: 1px solid #f3f05c;
-    padding: 1px 10px; /*size*/;
-    font-size: 1em;
+    border: px solid #f3f05c;
+    padding: 2px 12px; /*size*/;
+    font-size: 32px;
     text-align: center;
     
 }
+
+
 
 #navigationBar {
 	display: flex;
