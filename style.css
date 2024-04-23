@@ -1,7 +1,7 @@
 /*Might want to set defaults or blow them out. e.g margin:0,  padding: 0*/
 :root {
     --main-box-color: #bda0eb;
-    --main-text-color: hsl(0, 0%, 100%); 
+    --main-text-color: hsla(0, 0%, 100%, 0.863); 
     --main-title-color: rgb(231, 203, 203);
     --main-bg-color: rgb(48, 45, 45); 
     
@@ -9,7 +9,7 @@
 
 html {
     background-color: var(--main-bg-color); /*Custom background color*/ 
-    color: var(--main-text-color);          /*Custom white text*/ 
+    color: var(--main-text-color, wheat);          /*Custom white text*/ 
     font-family: "Oswald", sans-serif;      /*Custom Font*/ 
     font-size: 20;
 }
