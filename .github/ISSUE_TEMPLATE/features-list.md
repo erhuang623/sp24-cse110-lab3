@@ -12,7 +12,3 @@ assignees: erhuang623
 
 
 [What's your idea on how you are implementing/what you want it to be like]
-
-
-
-[Any issues that occurred?]
