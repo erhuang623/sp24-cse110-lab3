@@ -11,7 +11,7 @@ html {
     background-color: var(--main-bg-color); /*Custom background color*/ 
     color: var(--main-text-color, wheat);          /*Custom white text*/ 
     font-family: "Oswald", sans-serif;      /*Custom Font*/ 
-    font-size: 20;
+    font-size: 18px;
 }
 
 header {
@@ -24,14 +24,16 @@ header {
 
 #navigationBar > a {
     color: #f3f05c;
-    border: px solid #f3f05c;
     padding: 2px 12px; /*size*/;
-    font-size: 32px;
+    font-size: 2pc;
     text-align: center;
+    text-decoration: none;
     
 }
 
-
+#navigationBar > a:hover {
+    box-shadow: 2px 2px 5px;
+}
 
 #navigationBar {
 	display: flex;
@@ -44,6 +46,26 @@ header {
 
 #report {
     color: color-mix(in lch, rgb(114, 44, 44), rgb(18, 210, 235));
+}
+
+form fieldset button {
+    color: white;
+    background-color: rgb(66, 62, 62);
+    padding: 2px 12px; /*size*/;
+    font-size: .5cm;
+    text-align: center;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+form fieldset button:active {
+    color: white;
+    background-color: rgb(66, 62, 62);
+    padding: 2px 12px; /*size*/;
+    font-size: .45cm;
+    text-align: center;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 footer {
