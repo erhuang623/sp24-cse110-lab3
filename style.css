@@ -1,2 +1,51 @@
 /*Might want to set defaults or blow them out. e.g margin:0,  padding: 0*/
+:root {
+    --main-box-color: #bda0eb;
+    --main-text-color: hsl(0, 0%, 100%); 
+    --main-title-color: rgb(231, 203, 203);
+    --main-bg-color: rgb(48, 45, 45); 
+    
+}
 
+html {
+    background-color: var(--main-bg-color); /*Custom background color*/ 
+    color: var(--main-text-color);          /*Custom white text*/ 
+    font-family: "Oswald", sans-serif;      /*Custom Font*/ 
+    font-size: 20;
+}
+
+header {
+    background-color:var(--main-box-color);
+    color: var(--main-text-color);
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 1rem;
+}
+
+#navigationBar > a {
+    color: #f3f05c;
+    border: px solid #f3f05c;
+    padding: 2px 12px; /*size*/;
+    font-size: 32px;
+    text-align: center;
+    
+}
+
+
+
+#navigationBar {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: stretch;
+}
+
+#report {
+    color: color-mix(in lch, rgb(114, 44, 44), rgb(18, 210, 235));
+}
+
+footer {
+    color: color(display-p3 3 1 3);
+}
