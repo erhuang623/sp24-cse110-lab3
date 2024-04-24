@@ -11,7 +11,7 @@ html {
     background-color: var(--main-bg-color); /*Custom background color*/ 
     color: var(--main-text-color, wheat);          /*Custom white text*/ 
     font-family: "Oswald", sans-serif;      /*Custom Font*/ 
-    font-size: 12px;
+    font-size: 20px;
 }
 
 
@@ -32,7 +32,7 @@ header {
     color: #f3f05c;
     padding: 5px 10px 10px 10px; /*size*/;
     margin-left: 1em;
-    font-size: 1.5pc;
+    font-size: 3pc;
     text-align: center;
     text-decoration: none;
     
@@ -111,7 +111,6 @@ footer {
 /*Responsiveness here*/
 
 @media screen and (max-width: 1000px) {
-
     :root {
         display: block;
     }
@@ -120,20 +119,45 @@ footer {
         display: block;
     }
 
+    #attendance {
+        display: block;
+    }
 
+    #agenda {
+        display: block;
+    }
 
+    #media {
+        display: block;
+    }
+
+    #feedback {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
-
     :root {
         display: block;
     }
 
-    header h1 {
+    header {
         display: block;
     }
 
+    #attendance {
+        display: block;
+    }
 
+    #agenda {
+        display: block;
+    }
 
+    #media {
+        display: block;
+    }
+
+    #feedback {
+        display: none;
+    }
 }
