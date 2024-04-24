@@ -14,6 +14,7 @@ html {
     font-size: 12px;
 }
 
+
 header {
     background-color:var(--main-box-color);
     color: var(--main-text-color);
@@ -21,7 +22,7 @@ header {
     font-size: 1.5em;
     border-radius: 1rem;
     margin-top: 1em;
-    margin-bottom: em;
+    margin-bottom: 2em;
     margin-left: 1em;
     margin-right: 1em;
 
@@ -36,6 +37,8 @@ header {
     text-decoration: none;
     
 }
+
+
 
 #navigationBar > a:hover {
     box-shadow: 2px 2px 5px;
@@ -75,10 +78,6 @@ form fieldset button {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-form > fieldset {
-    margin: 10px 10px 10px 10px ;
-}
-
 form fieldset button:active {
     color: white;
     background-color: rgb(66, 62, 62);
@@ -90,6 +89,9 @@ form fieldset button:active {
 }
 
 
+form > fieldset input {
+    display: inline-block;
+}
 
 #hidden {
     display: none;
