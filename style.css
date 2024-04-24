@@ -25,7 +25,7 @@ header {
     margin-bottom: 2em;
     margin-left: 1em;
     margin-right: 1em;
-
+    position: static;
 }
 
 #navigationBar > a {
@@ -35,10 +35,13 @@ header {
     font-size: 3pc;
     text-align: center;
     text-decoration: none;
-    
 }
 
-
+#screenPal {
+    position: absolute;
+    top: 20px;
+    text-align: right;
+}
 
 #navigationBar > a:hover {
     box-shadow: 2px 2px 5px;
@@ -56,6 +59,8 @@ header {
 #media > picture > img {
     max-width: 50rem;
     max-height: 50rem;
+    min-width: none;
+    min-height: ;
 }
 
 #absent {
